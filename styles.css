@@ -1,0 +1,113 @@
+/* main style */
+html{
+   
+}
+body{
+    background-image: linear-gradient(to right bottom, #ef443d, #f35650, #f66763, #f87775, #f98787);
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a :hover{
+    text-decoration: none;
+    color: black;
+}
+button{
+    border: none;
+}
+.cat-intro{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-shadow:3px 2px 4px rgba(0, 0, 0, 0.192);
+    
+}
+.cat-intro p{
+    padding-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(199, 197, 197);
+    border-radius: 5px;
+    border-color: white;
+}
+.card h5{
+    font-family:  'Oswald', sans-seri;
+}
+.card-body{
+    
+}
+.logo-img{
+    padding-top: 10px;
+}
+ a{
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-button{
+    background-color: rgb(253, 90, 90);
+    border: solid 2px;
+    border-color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+    
+    text-align: center;
+}
+.nav-button :hover{
+    
+    background-color: rgb(255, 255, 255);
+    border-color: tomato;
+    
+    
+    
+}
+.card-img-top {
+    width: 100%;
+
+    object-fit: cover;
+}
+#SHOP-NOW{
+    margin-top: 100px;
+}
+.food-heading{
+   text-align: center;
+   padding-top: 50px;
+   font-family: 'Oswald', sans-serif;
+   
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+}
+.fa-instagram{
+    color: rgb(2, 2, 2);
+}
+.inst :hover{
+    color: rgb(158, 230, 252);
+}
+
+   
+    
+    
+
+
+
+
+
+
+
+@media (max-width: 582px){
+    .cat-img{
+        width: 200px;
+        position: absolute;
+        margin-left: 150px;
+        margin-top: 10px;
+     }
+     .carousel-item{
+         height: 150px;
+     }
+}
